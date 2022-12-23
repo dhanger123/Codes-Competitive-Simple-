@@ -4,7 +4,7 @@ int main() {
     string s;
     cin>>s;
     int ptr1=0,ptr2=1,sum=0;
-    cout<<s.length()<<endl;
+    
     while(ptr2<s.length())
     {
         if(s.length()==1)
@@ -28,7 +28,7 @@ int main() {
             
         }
     }
-    cout<<sum<<endl;
+    
     if(s.length()==1)
     {
         cout<<"Good luck!"<<endl;
