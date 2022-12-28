@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define pb push_back
+#define po pop_back
+int main()
+{
+	
+	int m,n;
+	cin>>m>>n;
+	cout<<(m*n)/2<<endl;
+	
+	
+
+}
