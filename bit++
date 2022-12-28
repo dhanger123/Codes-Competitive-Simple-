@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define pb push_back
+#define po pop_back
+int main()
+{
+
+	int n;
+	cin>>n;
+	int x=0;
+	while(n--)
+	{
+		string s;
+		cin>>s;
+		if(s == "X++") x++;
+		else if(s == "++X") ++x;
+		else if(s == "X--") x--;
+		else if(s == "--X") --x;
+	}
+	cout<<x;
+
+
+}
