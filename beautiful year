@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+        int n;
+        cin>>n;
+        while(1)
+        {
+                n++;
+                int f = n;
+                int a = f%10;
+                f=f/10;
+                int b = f%10;
+                f=f/10;
+                int c = f%10;
+                f=f/10;
+                int d = f%10;
+                if(a!=b && a!=c && a!=d && b!=c && b!=d && c!=d)
+                {
+                        break;
+                }
+        }
+        cout<<n;
+        return 0;
+}
