@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+        int n,count = 0;
+        cin>>n;
+        for(int i=0,p,q;i<n;i++)
+        {
+                cin>>p;
+                cin>>q;
+                if((q-p)>=2) count++;
+        }
+        cout<<count;
+        return 0;
+}
